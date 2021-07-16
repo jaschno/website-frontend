@@ -1,7 +1,7 @@
-function ContactPage(){
-    return <div>
-        <p>ContactPage</p>
-    </div>
+function ContactPage() {
+  return (
+      <p>ContactPage</p>
+  );
 }
 
 export default ContactPage;

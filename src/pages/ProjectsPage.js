@@ -1,7 +1,9 @@
 function ProjectsPage() {
-    return <div>
-        <p>ProjectsPage</p>
+  return (
+    <div>
+      <p>ProjectsPage</p>
     </div>
+  );
 }
 
 export default ProjectsPage;
