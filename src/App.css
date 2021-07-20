@@ -2,26 +2,3 @@ div {
   background-color: lightblue;
 }
 
-p.nav {
-  background-color: yellow;
-  display: inline-block;
-}
-
-ul.nav li {
-  display: inline-block;
-  border: 10px solid saddlebrown;
-  margin: 3px;
-}
-
-nav.nav {
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-  background-color: rebeccapurple;
-}
-
-ul.nav {
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-}
