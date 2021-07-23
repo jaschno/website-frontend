@@ -1,11 +1,14 @@
 import NavigationBar from './NavigationBar';
+import LinkBar from './LinkBar';
+
+import styles from './Header.module.css';
 
 function Header() {
   return (
-    <header>
-      <p>Logo</p>
+    <header className={styles.headerContainer}>
+      <div className={styles.headerLogo}></div>
       <NavigationBar />
-      <p>Links</p>
+      <LinkBar />
     </header>
   );
 }
