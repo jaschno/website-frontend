@@ -1,4 +1,5 @@
-import Header from './Header';
+import Header from './header/Header';
+
 import styles from "./Layout.module.css";
 
 function Layout(props) {

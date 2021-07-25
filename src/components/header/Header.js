@@ -1,5 +1,5 @@
-import NavigationBar from './NavigationBar';
-import LinkBar from './LinkBar';
+import NavigationBar from '../navigation/NavigationBar';
+import LinkBar from '../link/LinkBar';
 
 import styles from './Header.module.css';
 
@@ -7,8 +7,8 @@ function Header() {
   return (
     <header className={styles.headerContainer}>
       <div className={styles.headerLogo}></div>
-      <NavigationBar />
-      <LinkBar />
+      <NavigationBar style={styles.headerNavigation} />
+      <LinkBar style={styles.headerLinks} />
     </header>
   );
 }

@@ -1,12 +1,15 @@
 .headerContainer {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    max-height: 50px;
     background-color: #333;
 }
 
 .headerLogo {
-    width: 40px;
+    flex: 1;
     height: 40px;
+    min-width: 40px;
+    max-width: 40px;
     border-radius: 50%;
     margin-left: 15px;
     margin-top: auto;
@@ -15,4 +18,12 @@
     background-size: cover;
     background-position: center center;
     background-image: url(https://source.unsplash.com/random)
+}
+
+.headerNavigation {
+    flex: 6;
+}
+
+.headerLinks {
+    flex: 1;
 }
