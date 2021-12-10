@@ -2,11 +2,15 @@ import LinkItem from "./LinkItem";
 
 import styles from './LinkBar.module.css';
 
+import github from '../../assets/images/github.svg';
+import twitter from '../../assets/images/twitter.svg';
+
+
 function LinkBar(props) {
   return (
     <ul className={[styles.list, props.style].join(' ')}>
-      <LinkItem image="" title="Github" link="" />
-      <LinkItem image="" title="Twitter" link="" />
+      <LinkItem image={github} title="Github" link="" />
+      <LinkItem image={twitter} title="Twitter" link="" />
     </ul>
   );
 }
